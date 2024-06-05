@@ -28,7 +28,7 @@ async function registerAdmin(fullName, email, password, confirmPassword){
         confirmPassword:  confirmPassword.value
     }
 
-    const reply = await fetch("http://localhost:3000/Admin", {
+    const reply = await fetch("http://localhost:3000/admin", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -40,7 +40,7 @@ async function registerAdmin(fullName, email, password, confirmPassword){
 
 // Email function
 async function checkEmail(email) {
-    const reply = await fetch(`http://localhost:3000/Admin?email=${email.value}`);
+    const reply = await fetch(`http://localhost:3000/admin?email=${email.value}`);
     const data = await reply.json()
     
     console.log(data)
