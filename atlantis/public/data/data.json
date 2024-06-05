@@ -21,5 +21,17 @@
       "password": "sa",
       "confirmPassword": "sa"
     }
+  ],
+  "rooms": [
+    {
+      "number": "1",
+      "type": "simple",
+      "price": "$50.000",
+      "beds": "4",
+      "baths": "3",
+      "breakfast": "Yes",
+      "wifi": "Yes",
+      "airConditioning": "Yes"
+    }
   ]
 }

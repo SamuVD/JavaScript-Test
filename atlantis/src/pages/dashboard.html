@@ -45,23 +45,65 @@ Date: 05/06/2024
   </nav>
 
   <main class="container">
+    <section class="d-flex justify-content-center align-items-center">
+      <form class="w-55 my-4" id="crud-form">
+
+        <div class="form-floating my-2">
+            <input type="number" class="form-control" id="number" placeholder="Room Number">
+            <label for="number">Room Number</label>
+        </div>
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="type" placeholder="Room Type">
+          <label for="type">Room Type</label>
+        </div>
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="price" placeholder="Price">
+          <label for="price">Price</label>
+        </div>
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="beds" placeholder="Beds">
+          <label for="beds">Beds</label>
+        </div>
+        <div class="form-floating my-2">
+            <input type="text" class="form-control" id="baths" placeholder="Baths">
+            <label for="baths">Baths</label>
+        </div>
+
+        <div class="form-floating my-2">
+            <input type="text" class="form-control" id="breakfast" placeholder="Breakfast">
+            <label for="breakfast">Breakfast</label>
+        </div>
+
+        <div class="form-floating my-2">
+            <input type="text" class="form-control" id="wifi" placeholder="Wifi">
+            <label for="wifi">Wifi</label>
+        </div>
+
+        <div class="form-floating my-2">
+            <input type="text" class="form-control" id="air-Conditioning" placeholder="Air Conditioning">
+            <label for="air-Conditioning">Air Conditioning</label>
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit">Save</button>
+
+    </form>
+    </section>
     <table class="table">
       <thead>
         <tr>
-          <th scope="col">room number</th>
-          <th scope="col">room type</th>
-          <th scope="col">Breakfast.</th>
-          <th scope="col">Wifi.</th>
-          <th scope="col">Air conditioning (A/C).</th>
+          <th scope="col">Room Number</th>
+          <th scope="col">Room Type</th>
+          <th scope="col">Price</th>
+          <th scope="col">Beds</th>
+          <th scope="col">Baths</th>
+          <th scope="col">Breakfast</th>
+          <th scope="col">Wifi</th>
+          <th scope="col">Air Conditioning</th>
+          <th>Options</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
         </tr>
       </tbody>
     </table>
@@ -71,7 +113,8 @@ Date: 05/06/2024
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <script type="module" src="../auth/guardian.js"></script>
+  <script type="module" src="../js/main.js"></script>
+  <script type="module" src="../js/dashboard.js"></script>
 </body>
 
 </html>
