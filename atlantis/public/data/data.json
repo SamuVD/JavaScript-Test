@@ -1,3 +1,25 @@
 {
-    
+  "Admin": [
+    {
+      "fullName": "samuel",
+      "email": "midasvd2905@gmail.com",
+      "password": "sam",
+      "confirmPassword": "sam",
+      "id": "e718"
+    },
+    {
+      "id": "50d6",
+      "fullName": "mario",
+      "email": "mariooo@gmail.com",
+      "password": "mar",
+      "confirmPassword": "mar"
+    },
+    {
+      "id": "bfc3",
+      "fullName": "sara",
+      "email": "sarita@gmail.com",
+      "password": "sa",
+      "confirmPassword": "sa"
+    }
+  ]
 }

@@ -28,7 +28,7 @@ Date: 05/06/2024
 
 <body>
     <main class="d-flex justify-content-center align-items-center vh-100">
-        <form class="w-25">
+        <form class="w-25" id="register-form">
             <div class="text-center">
                 <img class="mb-4" src="https://logos-world.net/wp-content/uploads/2023/05/Aquaman-Logo.png" alt="logo"
                     width="200">
@@ -36,23 +36,23 @@ Date: 05/06/2024
             </div>
 
             <div class="form-floating my-2">
-                <input type="text" class="form-control" id="input-one" placeholder="input one">
-                <label for="input-one">input one</label>
+                <input type="text" class="form-control" id="full-name-register" placeholder="Full Name">
+                <label for="Full-Name">Full Name</label>
             </div>
 
             <div class="form-floating my-2">
-                <input type="text" class="form-control" id="input-two" placeholder="input two">
-                <label for="input-two">input two</label>
+                <input type="email" class="form-control" id="email-register" placeholder="Email">
+                <label for="Email">Email</label>
             </div>
 
             <div class="form-floating my-2">
-                <input type="text" class="form-control" id="input-two" placeholder="input three">
-                <label for="input-three">input three</label>
+                <input type="password" class="form-control" id="password-register" placeholder="Password">
+                <label for="Password">Password</label>
             </div>
 
             <div class="form-floating my-2">
-                <input type="text" class="form-control" id="input-four" placeholder="input four">
-                <label for="input-four">input four</label>
+                <input type="password" class="form-control" id="confirm-password-register" placeholder="Confirm Password">
+                <label for="Confirm-Password">Confirm Password</label>
             </div>
 
             <button class="btn btn-primary w-100 py-2" type="submit">Sign up</button>
@@ -66,6 +66,8 @@ Date: 05/06/2024
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/register.js"></script>
 </body>
 
 </html>
